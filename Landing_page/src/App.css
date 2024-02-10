@@ -1034,6 +1034,32 @@ z-index: -1;
 margin-top:20%;
 }
 @media (max-width: 768px) {
+  .card-details-1,
+  .multi-details-1 {
+    width: 100%;
+    padding: 0 3%; 
+    text-align: center; 
+  }
+
+  .card-details-1,
+  .multi-details-1 p {
+    margin: 10px 0; 
+  }
+
+  .multi-card {
+    width: 100%; 
+  }
+
+  .design2 {
+    display: none; 
+  }
+
+  .design3 {
+    left: 10%; 
+  }
+}
+
+@media (max-width: 768px) {
 .intro_img {
     position: relative;
     width: 100%;
